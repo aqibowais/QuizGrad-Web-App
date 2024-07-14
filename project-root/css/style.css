@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+.left-side{
+    width: 40%;
+    font-size: larger;
+    
+}
+.left-side h1{
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 2%;
+}
+.vertical-line{
+    width: 10px;
+    height: 20px;
+    border-left: 3px solid #828282;
+}
+.quote{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 200;
+    color:#828282;
+    margin: 2%;
+}
+.start-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.start-button button{
+    display: flex;
+    color: white;
+    font-size: large;
+    background-color: #FCC822; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 10px;
+}
+.start-button p{
+    color: #FCC822;
+    font-size: larger;
+}
