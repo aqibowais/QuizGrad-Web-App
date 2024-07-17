@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    width: 80%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+.left-side {
+    width: 100%;
+    height: 100vh;
+    padding: 20%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side p {
+    font-size: 1.3rem;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.email, .password, .name {
+    height: 60px;
+    margin: 10px 0;
+    border: 1px solid #C1BBBB;
+    color: #828282;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.email.focused, .password.focused, .name.focused{
+    border-left: solid 4px #FCC822; 
+}
+input[type="email"], input[type="password"], input[type='text']{
+    color: #FCC822;
+    width: 100%;
+    border: none;
+    font-size: larger;
+    cursor : #FCC822;
+    outline: none;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    color: #828282;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0;
+    gap: 30px;
+}
+
+.login-btn, .signup-btn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 9px -4px #FCC822; 
+}
+
+.login-btn {
+    background-color: #FCC822;
+    color: white;
+    font-size: large;
+}
+
+.signup-btn {
+    border: 1px solid #FCC822;
+    background-color: white;
+    font-size: large;
+}
+
+
+.right-side {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.right-side .image img {
+    max-width: 100%;
+    height: auto;
+}

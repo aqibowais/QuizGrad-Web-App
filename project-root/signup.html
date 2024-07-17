@@ -14,30 +14,39 @@
         <div class="container">
             <div class="left-side">
                 <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
-                <p>Welcome back! <br> Please login/Signup to your account.</p>
+                <br><p>Welcome back! <br> Please Signup to your account.</p>
+                <form action="">
+
+
+                </form>
+                <div class="name">Name
+                    <input id="name-input" type="text" >
+                </div>
                 <div class="email">Email Address
-                    <input type="email" placeholder="">
+                    <input id="email-input" type="email" >
                 </div>
                 <div class="password">Password
-                    <input type="password" placeholder="">
+                    <input id="password-input" type="password" >
                 </div>
-                <div class="remember">
-                    <p>
-
-                        <input type="checkbox">   Remember me
-                    </p>
-                    <a href="#" style="color: #828282; text-decoration : none">Forget Password?</a>
+                <div>
+                    <br>
+                    <label for="avatar">Choose a profile picture:</label>
+                    <br><br>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
                 </div>
+               
+               
                 <div class="buttons">
-                    <button class="login-btn">Login</button>
                     <button class="signup-btn">Signup</button>
+                    
                 </div>
-                <p style="text-align: start;">or login with <span style="color: #FCC822;">Facebook Google</span></p>
+            </form>
             </div>
         </div>
         <div class="right-side">
             <div class="image"><img src="./assets/images/cap.png" alt=""></div>
         </div>
     </div>
+    <script src="./js/signup.js"></script>
 </body>
 </html>

@@ -17,16 +17,21 @@
 }
 .logo{
     width: 100%;
-    height: 20%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.logo img{
+    width: 80%;
+    height: auto;
 }
 
 .container {
     display: flex;
     width: 50%;
-    height: 100%;
+    height: 100vh;
 }
 
 .left-side {
@@ -39,21 +44,23 @@
 }
 
 .left-side p {
-    font-size: 1rem;
-    margin: 10px 0;
+    font-size: 1.3rem;
+    margin: 50px 0;
     text-align: center;
 }
 
-.email, .password {
+.email, .password, .name {
     height: 60px;
     margin: 10px 0;
-    border: 1px solid #FCC822;
+    border: 1px solid #C1BBBB;
     color: #828282;
     padding: 5px 20px;
     border-radius: 5px;
 }
-
-input[type="email"], input[type="password"] {
+.email.focused, .password.focused, .name.focused{
+    border-left: solid 4px #FCC822; 
+}
+input[type="email"], input[type="password"], input[type='text']{
     color: #FCC822;
     width: 100%;
     border: none;
@@ -74,12 +81,12 @@ input[type="email"], input[type="password"] {
 .buttons {
     display: flex;
     justify-content: start;
-    margin: 20px 0;
-    gap: 20px;
+    margin: 60px 0;
+    gap: 30px;
 }
 
-.login-btn, .signup-btn {
-    padding: 10px 20px;
+.signup-btn {
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -87,17 +94,12 @@ input[type="email"], input[type="password"] {
     box-shadow: 0 4px 9px -4px #FCC822; 
 }
 
-.login-btn {
+.signup-btn {
     background-color: #FCC822;
     color: white;
     font-size: large;
 }
 
-.signup-btn {
-    border: 1px solid #FCC822;
-    background-color: white;
-    font-size: large;
-}
 
 
 .right-side {
